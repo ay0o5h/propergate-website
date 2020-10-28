@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.p {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: rgba($color: #000000, $alpha: 0.5);
+}
+.h {
+    font-family:'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: rgba($color: #000000, $alpha: 0.8);
+}
+// start process
+.process {
+    // start header
+    header {
+        justify-content: center;
+        text-align: center;
+        h1 {
+            @extend .h;
+            margin-top: 10%;
+        }
+        img {
+            width: 100%;
+        }
+        p {
+            @extend .p;
+            color: rgba($color: #000000, $alpha: 0.7);
+            font-size: 20px;
+        }
+    }
+    // end header 
+    // start stages
+    .stages {
+        margin: 5%;
+        padding: 5%;
+        h4 {
+            @extend .h;
+            margin-top: 5px;
+        }
+        h5 {
+            @extend .h;
+            // margin-top: 10%;
+        }
+        img {
+            width: 100%;
+            margin-top: 20%;
+        }
+        p {
+            @extend .p;
+        }
+        .yellow {
+            background-color: #ffde79;
+            width: 45%;
+            display: block;
+            h5{
+                @extend .h; 
+                    margin-bottom: 10px;
+                    position: relative;
+                    bottom: 10px;
+                    left: 5px;
+                    margin-top: 30px;
+             }
+        }
+        .blue {
+            padding: 3%;
+            background-color: #F0F8FF;
+            border-left: 3px solid #B3D7FB;
+        }
+        .dash {
+            margin: 0;
+            // height: 100px;
+        }
+    }
+    // end stages
+    // start building
+    .building {
+        margin: 1%;
+        padding: 5%;
+        justify-content: center;
+        text-align: center;
+        h3 {
+            @extend .h;
+        }
+        img {
+            width: 100%;
+            margin-top: 20px;
+        }
+        p {
+            @extend .p;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    }
+    // end building
+    // start Faq
+    .faq {
+        margin: 5%;
+        padding: 5%;
+        h3 {
+            @extend .h;
+            text-transform: uppercase;
+        }
+        h5 {
+            @extend .h;
+        }
+        p {
+            @extend .h;
+            color: rgba($color: #000000, $alpha: 0.5);
+            font-size: 20px;
+        }
+        .title {
+            padding: 3%;
+            border-top: .5px solid rgba($color: #000000, $alpha: 0.1);
+            border-bottom: .5px solid rgba($color: #000000, $alpha: 0.1);
+            position: relative;
+            cursor: pointer;
+            i {
+                position: absolute;
+                top:30px;
+                right: 20px;;
+                font-size: 30px;
+            }
+           
+        }
+        .content {
+            padding: 3%;
+           display: none;
+            background-color: #F6F8F9;
+            p {
+                @extend .p;
+            }
+            
+        }
+        span {
+            @extend .h;
+            color: #5FBBFF;
+            cursor: pointer;
+            font-size: 20px;
+            position: relative;
+            top:30px;
+            i {
+                margin-left: 10px;
+            }
+        }
+      
+            li {
+                list-style: none;
+
+            }
+            .showem {
+                .content{
+                    display: block;
+                }
+            }
+    }
+    // end Faq
+}
+// end process
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .process {
+       header {
+           h1 {
+               margin-top: 20%;
+           }
+       }
+   }
+}

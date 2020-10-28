@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.p, .contact .forms p, .contact .forms form .form-check label {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.h, .contact .forms h1, .contact .forms .yellow h5, .contact .forms ul li address {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact .forms {
+  padding: 5%;
+  margin: 5%;
+}
+
+.contact .forms h1 {
+  margin-top: 10%;
+}
+
+.contact .forms p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.contact .forms .yellow {
+  background-color: #ffde79;
+  width: 40%;
+  display: block;
+}
+
+.contact .forms .yellow h5 {
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+  margin-top: 40px;
+}
+
+.contact .forms ul {
+  margin: 5% auto;
+  padding: 5%;
+}
+
+.contact .forms ul li {
+  list-style: none;
+}
+
+.contact .forms ul li address {
+  color: rgba(0, 0, 0, 0.7);
+  display: inline;
+}
+
+.contact .forms ul li i {
+  color: #036FC7;
+  background-color: #E6F1F9;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.contact .forms form {
+  margin-top: 50px;
+}
+
+.contact .forms form label {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact .forms form label span {
+  color: red;
+}
+
+.contact .forms form input {
+  padding: 15px;
+}
+
+.contact .forms form .btn {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.contact .forms form .form-check {
+  margin-top: 30px;
+}
+
+.contact .forms form .err {
+  border: 1px solid red;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.p {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: rgba($color: #000000, $alpha: 0.5);
+}
+.h {
+    font-family:'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: rgba($color: #000000, $alpha: 0.8);
+}
+// start home 
+.home {
+    // start header
+    .header {
+        justify-content: center;
+        text-align: center;
+        h1 {
+           @extend .h;
+            margin-top: 10% ;
+        }
+        .btn {
+            font-family:'Roboto Slab', serif;
+            text-transform: capitalize;
+            margin-top: 20px;
+            margin-right: 20px; 
+        }
+        .btn-light {
+            border:1px solid black;
+        }
+        .pic1 {
+                width: 100%;
+                height: 70vh;
+        }
+    }
+    // end header
+    // start icons
+    .icons  {
+        justify-content: center;
+        text-align: center;
+        padding: 7%;
+        h5 {
+           @extend .h;
+        }
+        p {
+           @extend .p;
+        }
+        img {
+            height: 90px;
+            width: 90px;
+        }
+    } 
+    // end icons
+    // start Construction
+    .Construction {
+        padding: 5%;
+        margin: 5% auto;
+        justify-content: center;
+        text-align: center;
+        h1 {
+            @extend .h;
+            margin: 2% auto;
+        }
+        p {
+            @extend .p;
+            margin-bottom: 5%;
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-size: 20px;
+         }
+         img {
+             width: 100%;
+         }
+    }
+    // end Construction
+    // start bring-order
+    .bring-order {
+        padding: 5%;
+        margin: 5% auto;
+        h2 {
+            @extend .h;
+            margin-bottom: 10%;
+        }
+        h3 {
+            @extend .h;
+        }
+        p {
+            @extend .p;
+            font-size: 20px;
+         }
+        span{
+            background-color: #ffde79;
+            width: 40%;
+            display: block;
+            h5{
+                @extend .h; 
+                    margin-bottom: 10px;
+                    position: relative;
+                    bottom: 10px;
+                    left: 5px;
+                    margin-top: 30px;
+             }
+        }
+        img {
+            width: 100%;
+        }
+    }
+    // end bring-order
+    // start logos1
+    .logos1 {
+        margin: 5% auto;
+        img {
+            width: 100%;
+        }
+    }
+    // end logos1
+    // start properGate
+    .properGate {
+        padding: 5%;
+        .row {
+            margin-top: 3%;
+        }
+        h2 {
+            @extend .h;
+        }
+        h4 {
+            @extend .h;
+            margin-top: 20%;
+        }
+        .p1 {
+            @extend .p;
+            width: 60%;
+            margin-bottom: 5%;
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 20px;
+        }
+        p {
+            @extend .p;
+        }
+        img{
+           width: 100%;;
+        }
+    }
+    // end properGate
+    // start Delivery
+    .delivery {
+        padding: 5%;
+        margin: 5% auto;
+        .row {
+            margin-top: 3%;
+        }
+        h2,h4 {
+            @extend .h;
+        }
+        .p1 {
+            @extend .p;
+            width: 60%;
+            margin-bottom: 5%;
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 20px;
+        }
+        p {
+            @extend .p;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    // end Delivery
+    // start Sustainability
+    .Sustainability {
+        padding: 5%;
+        margin: 5% auto;
+        justify-content: center;
+        text-align: center;
+        h2,h4 {
+            @extend .h;
+        }
+        .p1 {
+            @extend .p;
+            width: 60%;
+            margin-bottom: 5%;
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 20px;
+        }
+        p {
+            @extend .p;
+        }
+        .flower {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            bottom: 30px;
+        }
+        .learn-more {
+            padding: 3%;
+            margin-top: 7%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 10%;
+            background-color: #F6F8F9;
+            border-radius: 20px;
+            h5 {
+                @extend .h;
+            }
+            .btn-light {
+                font-family:'Roboto Slab', serif;
+                text-transform: capitalize;
+                border:1px solid black;
+                background: #fff;
+            }
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    // end Sustainability
+    // start built-for-construction
+    .built-for-construction {
+        padding: 5%;
+        margin: 5% auto;
+        background-color: #212B31;
+        h3,h5 {
+            @extend .h;
+            color:white;
+            margin-top: 40px;
+        }
+        p {
+            @extend .p ;
+            color: white;
+        }
+        ul li {
+            color:white
+        }
+        .btn {
+            font-family:'Roboto Slab', serif;
+            text-transform: capitalize;
+            margin-top: 20px;
+            margin-right: 20px; 
+        }
+        .btn-dark {
+            border:1px solid white;
+            background-color: transparent;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    // end built-for-construction
+    // start work with us
+    .work-with-us {
+        padding: 5%;
+        margin: 5% auto;
+        h3,h5 {
+            @extend .h;
+        }
+        .p1 {
+            @extend .p ;
+            font-size: 20px;
+        }
+        p {
+            @extend .p ;
+        }
+        .btn {
+            font-family:'Roboto Slab', serif;
+            text-transform: capitalize;
+            margin-top: 20px;
+            margin-right: 20px; 
+        }
+        .btn-light {
+            border:1px solid rgba($color: #000000, $alpha: 0.5);
+        }
+        img {
+            width: 100%;
+        }
+        .col-3 {    
+            text-align: right;
+            float: right;
+            margin-top: 15px;
+        }
+        span {
+            border: 1px solid rgba($color: #000000, $alpha: 0.5);
+            border-radius: 50%;
+            padding: 10%;
+            color:rgba($color: #000000, $alpha: 0.5); 
+        }
+    } 
+    // end work with us
+    // start choose-us
+    .choose-us {
+        padding: 5%;
+        margin: 5% auto;
+        h3,h5 {
+            @extend .h;
+        }
+        .p1 {
+            @extend .p ;
+            font-size: 20px;
+        }
+        p {
+            @extend .p ;
+        }
+        .imgs {
+            width: 80px;
+            height: 80px;
+            float: right;
+        }
+        img {
+            width: 100%;
+        }
+        .col-9 {
+            margin-top: 30px;
+        }
+        .carousel {
+            .carousel-caption {
+                top:50px;
+            }
+            .media-body{
+                margin-top: 25%;
+            }
+            p{
+                @extend .p;
+                font-size: 30px;
+                color: rgba($color: #000000, $alpha: 0.8);
+                text-align: left;
+            }
+            span {
+                @extend .p; 
+            }
+            h5 {
+                text-align: left;
+            }
+            .rounded-circle {
+                height: 70px;
+                width: 70px;
+                margin-top: 25%
+            }
+        }
+        .carousel-indicators {
+            li {
+                background-color: gray;
+        }
+        } 
+    }
+    // end choose-us
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+   .home {
+       .choose-us {
+           img {
+               height: 100vh;
+           }
+       }
+   }
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .home  {
+        .header {
+            h1 {
+                margin-top: 20%;
+            }
+            .pic1 {
+                height: 50vh;
+            }
+        }
+    }
+    }
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .home {
+        .header {
+           img {
+               width: 100%;
+           }
+        }
+            .choose-us {
+                img {
+                    height: 75vh;
+                }
+            }
+        
+    }
+ }
+ // Large devices (desktops, less than 1200px)
+ @media (max-width: 1199.98px) { 
+     
+    .home {
+        .choose-us {
+            img {
+                height: 75vh;
+            }
+        }
+    }
+}

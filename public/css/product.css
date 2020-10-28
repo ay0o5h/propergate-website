@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.p, .product .benefits p, .product .WhatProperGate .p1, .product .WhatProperGate .num, .product .WhatProperGate p, .product .WhatProperGate .note span {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.h, .product header h1, .product .benefits h2, .product .benefits h5, .product .WhatProperGate h2, .product .WhatProperGate h4, .product .WhatProperGate h5 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.product header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.product header h1 {
+  margin-top: 10%;
+}
+
+.product header img {
+  width: 100%;
+}
+
+.product .benefits {
+  padding: 5%;
+  margin: 5% auto;
+  background-color: #212B31;
+}
+
+.product .benefits h2 {
+  color: white;
+}
+
+.product .benefits p {
+  color: white;
+  margin-top: 20px;
+}
+
+.product .benefits h5 {
+  color: white;
+  margin-top: 40px;
+}
+
+.product .benefits .col-3 {
+  margin-top: 20px;
+}
+
+.product .WhatProperGate {
+  padding: 5%;
+  margin: 5% auto;
+}
+
+.product .WhatProperGate .p1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.product .WhatProperGate .num {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 50px;
+}
+
+.product .WhatProperGate .content {
+  display: none;
+}
+
+.product .WhatProperGate p {
+  margin-left: 30px;
+}
+
+.product .WhatProperGate h4 {
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.product .WhatProperGate h5 {
+  margin-top: 5%;
+}
+
+.product .WhatProperGate img {
+  width: 100%;
+}
+
+.product .WhatProperGate ul li {
+  list-style: none;
+}
+
+.product .WhatProperGate .note span {
+  position: relative;
+  padding: 2.5%;
+  background-color: #EEF2F3;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.product .WhatProperGate .note span::before {
+  position: absolute;
+  content: '';
+  left: -18px;
+  top: 18px;
+  width: 0;
+  height: 0;
+  border-top-color: transparent;
+  border-top-width: 33px;
+  border-top-style: solid;
+  border-left-color: #EEF2F3;
+  border-left-width: 35px;
+  border-left-style: solid;
+  border-right-color: transparent;
+  border-right-width: 35px;
+  border-right-style: solid;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.product .WhatProperGate .note i {
+  margin-right: 5px;
+}
+
+.product .WhatProperGate .note .fa-mobile {
+  color: #036FC7;
+  background-color: #E8F3FE;
+  padding: 10px;
+  margin-right: 25px;
+}
+
+.product .WhatProperGate .activeLi h4 {
+  color: #036FC7;
+}
+
+.product .WhatProperGate .activeLi .num {
+  background-color: #036FC7;
+  border-color: #036FC7;
+  color: white;
+}
+
+.product .WhatProperGate .activeLi .content {
+  display: block;
+}
+
+@media (max-width: 575.98px) {
+  .product header h1 {
+    margin-top: 20%;
+  }
+}
+/*# sourceMappingURL=product.css.map */

@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.p, .home .icons p, .home .Construction p, .home .bring-order p, .home .properGate .p1, .home .properGate p, .home .delivery .p1, .home .delivery p, .home .Sustainability .p1, .home .Sustainability p, .home .built-for-construction p, .home .work-with-us .p1, .home .work-with-us p, .home .choose-us .p1, .home .choose-us p, .home .choose-us .carousel p, .home .choose-us .carousel span {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.h, .home .header h1, .home .icons h5, .home .Construction h1, .home .bring-order h2, .home .bring-order h3, .home .bring-order span h5, .home .properGate h2, .home .properGate h4, .home .delivery h2, .home .delivery h4, .home .Sustainability h2, .home .Sustainability h4, .home .Sustainability .learn-more h5, .home .built-for-construction h3, .home .built-for-construction h5, .home .work-with-us h3, .home .work-with-us h5, .home .choose-us h3, .home .choose-us h5 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.home .header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.home .header h1 {
+  margin-top: 10%;
+}
+
+.home .header .btn {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.home .header .btn-light {
+  border: 1px solid black;
+}
+
+.home .header .pic1 {
+  width: 100%;
+  height: 70vh;
+}
+
+.home .icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 7%;
+}
+
+.home .icons img {
+  height: 90px;
+  width: 90px;
+}
+
+.home .Construction {
+  padding: 5%;
+  margin: 5% auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.home .Construction h1 {
+  margin: 2% auto;
+}
+
+.home .Construction p {
+  margin-bottom: 5%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+}
+
+.home .Construction img {
+  width: 100%;
+}
+
+.home .bring-order {
+  padding: 5%;
+  margin: 5% auto;
+}
+
+.home .bring-order h2 {
+  margin-bottom: 10%;
+}
+
+.home .bring-order p {
+  font-size: 20px;
+}
+
+.home .bring-order span {
+  background-color: #ffde79;
+  width: 40%;
+  display: block;
+}
+
+.home .bring-order span h5 {
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+  margin-top: 30px;
+}
+
+.home .bring-order img {
+  width: 100%;
+}
+
+.home .logos1 {
+  margin: 5% auto;
+}
+
+.home .logos1 img {
+  width: 100%;
+}
+
+.home .properGate {
+  padding: 5%;
+}
+
+.home .properGate .row {
+  margin-top: 3%;
+}
+
+.home .properGate h4 {
+  margin-top: 20%;
+}
+
+.home .properGate .p1 {
+  width: 60%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+}
+
+.home .properGate img {
+  width: 100%;
+}
+
+.home .delivery {
+  padding: 5%;
+  margin: 5% auto;
+}
+
+.home .delivery .row {
+  margin-top: 3%;
+}
+
+.home .delivery .p1 {
+  width: 60%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+}
+
+.home .delivery img {
+  width: 100%;
+}
+
+.home .Sustainability {
+  padding: 5%;
+  margin: 5% auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.home .Sustainability .p1 {
+  width: 60%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+}
+
+.home .Sustainability .flower {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 30px;
+}
+
+.home .Sustainability .learn-more {
+  padding: 3%;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  background-color: #F6F8F9;
+  border-radius: 20px;
+}
+
+.home .Sustainability .learn-more .btn-light {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  border: 1px solid black;
+  background: #fff;
+}
+
+.home .Sustainability .learn-more img {
+  width: 50px;
+  height: 50px;
+}
+
+.home .built-for-construction {
+  padding: 5%;
+  margin: 5% auto;
+  background-color: #212B31;
+}
+
+.home .built-for-construction h3, .home .built-for-construction h5 {
+  color: white;
+  margin-top: 40px;
+}
+
+.home .built-for-construction p {
+  color: white;
+}
+
+.home .built-for-construction ul li {
+  color: white;
+}
+
+.home .built-for-construction .btn {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.home .built-for-construction .btn-dark {
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.home .built-for-construction img {
+  width: 100%;
+}
+
+.home .work-with-us {
+  padding: 5%;
+  margin: 5% auto;
+}
+
+.home .work-with-us .p1 {
+  font-size: 20px;
+}
+
+.home .work-with-us .btn {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.home .work-with-us .btn-light {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.home .work-with-us img {
+  width: 100%;
+}
+
+.home .work-with-us .col-3 {
+  text-align: right;
+  float: right;
+  margin-top: 15px;
+}
+
+.home .work-with-us span {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.home .choose-us {
+  padding: 5%;
+  margin: 5% auto;
+}
+
+.home .choose-us .p1 {
+  font-size: 20px;
+}
+
+.home .choose-us .imgs {
+  width: 80px;
+  height: 80px;
+  float: right;
+}
+
+.home .choose-us img {
+  width: 100%;
+}
+
+.home .choose-us .col-9 {
+  margin-top: 30px;
+}
+
+.home .choose-us .carousel .carousel-caption {
+  top: 50px;
+}
+
+.home .choose-us .carousel .media-body {
+  margin-top: 25%;
+}
+
+.home .choose-us .carousel p {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+}
+
+.home .choose-us .carousel h5 {
+  text-align: left;
+}
+
+.home .choose-us .carousel .rounded-circle {
+  height: 70px;
+  width: 70px;
+  margin-top: 25%;
+}
+
+.home .choose-us .carousel-indicators li {
+  background-color: gray;
+}
+
+@media (max-width: 575.98px) {
+  .home .choose-us img {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home .header h1 {
+    margin-top: 20%;
+  }
+  .home .header .pic1 {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .home .header img {
+    width: 100%;
+  }
+  .home .choose-us img {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .home .choose-us img {
+    height: 75vh;
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbr {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbr .navbar-light .navbar-brand {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbr .navbar-light .navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbr .navbar-light .navbar-nav .nav-item .active {
+  color: #FFDE79;
+}
+
+.navbr .navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+}
+
+.navbr .btn {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+}
+
+.booksDemo {
+  background-image: url("../images/home/11.png");
+  background-size: cover;
+  padding: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 50vh;
+}
+
+.booksDemo .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 222, 121, 0.9);
+}
+
+.booksDemo h1 {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin: 7% auto;
+}
+
+.booksDemo .btn {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.booksDemo .btn-light {
+  border: 1px solid black;
+}
+
+.footer .navbar-brand {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.footer address {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+}
+
+.footer h5 {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.footer .footer-link {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+  display: block;
+}
+
+.footer p {
+  font-family: 'Roboto Slab', serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+}
+
+.bookform .forms {
+  padding: 5%;
+  margin: 5%;
+}
+
+.bookform .forms h1 {
+  font-family: 'Roboto Slab', serif;
+  color: rgba(0, 0, 0, 0.9);
+  text-transform: capitalize;
+  margin-top: 10%;
+}
+
+.bookform .forms p {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.bookform .forms ul {
+  margin: 5% auto;
+  padding: 5%;
+}
+
+.bookform .forms ul li {
+  list-style: none;
+}
+
+.bookform .forms ul li h5 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.7);
+  display: inline;
+}
+
+.bookform .forms ul li i {
+  color: black;
+  background-color: #FFDE79;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.bookform .forms form {
+  margin-top: 50px;
+}
+
+.bookform .forms form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bookform .forms form label {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.bookform .forms form label span {
+  color: red;
+}
+
+.bookform .forms form input {
+  padding: 15px;
+}
+
+.bookform .forms form .btn {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.bookform .forms form .form-check {
+  margin-top: 30px;
+}
+
+.bookform .forms form .form-check label {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+}
+
+.suplier .forms, .subcontractor .forms, .generalcontractor .forms, .realestate .forms {
+  padding: 5%;
+  margin: 5%;
+}
+
+.suplier .forms h1, .subcontractor .forms h1, .generalcontractor .forms h1, .realestate .forms h1 {
+  font-family: 'Roboto Slab', serif;
+  color: rgba(0, 0, 0, 0.9);
+  text-transform: capitalize;
+  margin-top: 10%;
+}
+
+.suplier .forms p, .subcontractor .forms p, .generalcontractor .forms p, .realestate .forms p {
+  font-family: 'Roboto Slab', serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.suplier .forms ul, .subcontractor .forms ul, .generalcontractor .forms ul, .realestate .forms ul {
+  margin: 5% auto;
+  padding: 5%;
+}
+
+.suplier .forms ul li, .subcontractor .forms ul li, .generalcontractor .forms ul li, .realestate .forms ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.suplier .forms ul li p, .subcontractor .forms ul li p, .generalcontractor .forms ul li p, .realestate .forms ul li p {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline;
+}
+
+.suplier .forms ul li i, .subcontractor .forms ul li i, .generalcontractor .forms ul li i, .realestate .forms ul li i {
+  color: #3878C5;
+  background-color: #E6F3FF;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.suplier .forms form, .subcontractor .forms form, .generalcontractor .forms form, .realestate .forms form {
+  margin-top: 50px;
+}
+
+.suplier .forms form select, .subcontractor .forms form select, .generalcontractor .forms form select, .realestate .forms form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.suplier .forms form label, .subcontractor .forms form label, .generalcontractor .forms form label, .realestate .forms form label {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.suplier .forms form label span, .subcontractor .forms form label span, .generalcontractor .forms form label span, .realestate .forms form label span {
+  color: red;
+}
+
+.suplier .forms form input, .subcontractor .forms form input, .generalcontractor .forms form input, .realestate .forms form input {
+  padding: 15px;
+}
+
+.suplier .forms form .btn, .subcontractor .forms form .btn, .generalcontractor .forms form .btn, .realestate .forms form .btn {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.suplier .forms form .form-check, .subcontractor .forms form .form-check, .generalcontractor .forms form .form-check, .realestate .forms form .form-check {
+  margin-top: 30px;
+}
+
+.suplier .forms form .form-check label, .subcontractor .forms form .form-check label, .generalcontractor .forms form .form-check label, .realestate .forms form .form-check label {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+}
+
+.generalcontractor img, .realestate img {
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .booksDemo {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .booksDemo {
+    height: 50vh;
+  }
+  .footer .navbar-brand {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .navbr .navbar-light .navbar-nav .nav-item {
+    margin-right: 0;
+  }
+  .booksDemo {
+    height: 50vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */

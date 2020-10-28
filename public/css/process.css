@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.p, .process header p, .process .stages p, .process .building p, .process .faq .content p {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.h, .process header h1, .process .stages h4, .process .stages h5, .process .stages .yellow h5, .process .building h3, .process .faq h3, .process .faq h5, .process .faq p, .process .faq span {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.process header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.process header h1 {
+  margin-top: 10%;
+}
+
+.process header img {
+  width: 100%;
+}
+
+.process header p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+}
+
+.process .stages {
+  margin: 5%;
+  padding: 5%;
+}
+
+.process .stages h4 {
+  margin-top: 5px;
+}
+
+.process .stages img {
+  width: 100%;
+  margin-top: 20%;
+}
+
+.process .stages .yellow {
+  background-color: #ffde79;
+  width: 45%;
+  display: block;
+}
+
+.process .stages .yellow h5 {
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+  margin-top: 30px;
+}
+
+.process .stages .blue {
+  padding: 3%;
+  background-color: #F0F8FF;
+  border-left: 3px solid #B3D7FB;
+}
+
+.process .stages .dash {
+  margin: 0;
+}
+
+.process .building {
+  margin: 1%;
+  padding: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.process .building img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.process .building p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.process .faq {
+  margin: 5%;
+  padding: 5%;
+}
+
+.process .faq h3 {
+  text-transform: uppercase;
+}
+
+.process .faq p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.process .faq .title {
+  padding: 3%;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+}
+
+.process .faq .title i {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 30px;
+}
+
+.process .faq .content {
+  padding: 3%;
+  display: none;
+  background-color: #F6F8F9;
+}
+
+.process .faq span {
+  color: #5FBBFF;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+}
+
+.process .faq span i {
+  margin-left: 10px;
+}
+
+.process .faq li {
+  list-style: none;
+}
+
+.process .faq .showem .content {
+  display: block;
+}
+
+@media (max-width: 575.98px) {
+  .process header h1 {
+    margin-top: 20%;
+  }
+}
+/*# sourceMappingURL=process.css.map */

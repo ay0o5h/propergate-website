@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.p, .about .our-story p, .about .our-team p, .about .business-angels p, .about .slid .carousel p, .about .slid .carousel span {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.h, .about header h1, .about .our-story h4, .about .our-story h2, .about .our-team h5, .about .our-team h2, .about .business-angels h5, .about .business-angels h2, .about .slid .carousel h5 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.about header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.about header h1 {
+  margin-top: 10%;
+}
+
+.about header img {
+  width: 100%;
+}
+
+.about .our-story {
+  padding: 5%;
+  margin: 5%;
+}
+
+.about .our-story p {
+  margin-top: 30px;
+}
+
+.about .our-story h2 {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.about .our-team {
+  padding: 5%;
+  margin: 5%;
+}
+
+.about .our-team .card {
+  border: none;
+}
+
+.about .our-team .card a {
+  float: right;
+}
+
+.about .our-team .card a i {
+  background-color: #1378CB;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.about .our-team p {
+  margin-top: 15px;
+}
+
+.about .our-team h2 {
+  margin-bottom: 10%;
+}
+
+.about .our-team .image-line {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about .business-angels {
+  padding: 5%;
+  margin: 5%;
+}
+
+.about .business-angels .card {
+  border: none;
+}
+
+.about .business-angels .card a {
+  float: right;
+}
+
+.about .business-angels .card a i {
+  background-color: #1378CB;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.about .business-angels p {
+  margin-top: 15px;
+}
+
+.about .business-angels h2 {
+  margin-bottom: 10%;
+}
+
+.about .slid {
+  padding: 5%;
+  margin: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.about .slid .carousel {
+  height: 100vh;
+}
+
+.about .slid .carousel .carousel-caption {
+  top: 50px;
+}
+
+.about .slid .carousel .media-body {
+  margin-top: 15%;
+}
+
+.about .slid .carousel p {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+}
+
+.about .slid .carousel span {
+  float: left;
+}
+
+.about .slid .carousel h5 {
+  text-align: left;
+}
+
+.about .slid .carousel .rounded-circle {
+  height: 70px;
+  width: 70px;
+  margin-top: 15%;
+}
+
+.about .slid .carousel-indicators li {
+  background-color: gray;
+}
+
+@media (max-width: 575.98px) {
+  .about header h1 {
+    margin-top: 20%;
+  }
+  .about .our-story h2 {
+    width: 100%;
+  }
+  .about .slid .carousel {
+    height: auto;
+  }
+  .about .slid .carousel .media-body {
+    margin-top: 10px;
+  }
+  .about .slid .carousel .rounded-circle {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .about .slid .carousel {
+    height: 70vh;
+  }
+  .about .slid .carousel .media-body {
+    margin-top: 10px;
+  }
+  .about .slid .carousel .rounded-circle {
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.p {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: rgba($color: #000000, $alpha: 0.5);
+}
+.h {
+    font-family:'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: rgba($color: #000000, $alpha: 0.8);
+}
+// start about
+.product {
+    // start header
+    header {
+        justify-content: center;
+        text-align: center;
+        h1 {
+            @extend .h;
+            margin-top: 10%;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    // end header 
+    // start benefits
+    .benefits {
+        padding: 5%;
+        margin: 5% auto;
+        background-color: #212B31;
+        h2 {
+            @extend .h;
+            color: white;
+        }
+        p {
+            @extend .p;
+            color: white;
+            margin-top: 20px;
+        }
+        h5 {
+            @extend .h;
+            color: white;
+            margin-top: 40px;
+        }
+        .col-3 {
+            margin-top: 20px;
+        }
+    }
+    // end benefits
+    // start WhatProperGate
+    .WhatProperGate {
+        padding: 5%;
+        margin: 5% auto;
+        h2 {
+            @extend .h;
+        }
+        .p1 {
+            @extend .p;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .num {
+            @extend .p;
+            padding: 10px;
+            border: 1px solid rgba($color: #000000, $alpha: 0.5);
+            border-radius: 50%;
+            margin-right: 5px;
+            width: 50px;
+        }
+        .content {
+            display: none;
+        }
+        p {
+        @extend .p;
+        margin-left: 30px;
+        }
+        h4 {
+            @extend .h;
+            margin-top: 3%;
+            cursor: pointer;
+        }
+        h5 {
+            @extend .h;
+            margin-top: 5%;
+        }
+        img {
+            width: 100%;
+        }
+        ul li {
+            list-style: none;
+        }
+        .note {
+            span {
+                position: relative;
+                padding: 2.5%;
+                background-color: #EEF2F3;
+                @extend .p;
+                border-bottom-right-radius:5px ;
+                border-top-right-radius: 5px;
+                   &::before {
+                    position: absolute;
+                    content: '';
+                    left:-18px;
+                    top:18px;
+                    width: 0;
+                    height: 0;
+                    border-top-color:transparent;
+                    border-top-width: 33px;
+                    border-top-style: solid;
+                    border-left-color:#EEF2F3;
+                    border-left-width: 35px;
+                    border-left-style: solid;
+                    border-right-color:transparent;
+                    border-right-width: 35px;
+                    border-right-style: solid;
+                    transform: rotate(45deg);
+                    
+                   }
+            }
+            i {
+                margin-right: 5px;
+            }
+            .fa-mobile {
+                color: #036FC7;
+                background-color: #E8F3FE;
+                padding: 10px;
+                margin-right: 25px;
+            }
+        }
+        .activeLi {
+            h4 {
+                color: #036FC7;
+            }
+            .num {
+                background-color: #036FC7;
+                border-color: #036FC7;
+                color: white;
+            }
+            .content {
+                display: block;
+            }
+        }
+      
+    }
+    // end WhatProperGate
+}
+// end product
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .product {
+       header {
+           h1 {
+               margin-top: 20%;
+           }
+       }
+   }
+}
