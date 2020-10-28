@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.p {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: rgba($color: #000000, $alpha: 0.5);
+}
+.h {
+    font-family:'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: rgba($color: #000000, $alpha: 0.8);
+}
+// start contact
+.contact {
+    .forms {
+    padding: 5%;
+    margin: 5%;
+    h1 {
+        @extend .h;
+        margin-top: 10%;
+    }
+    p {
+        @extend .p;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .yellow {
+        background-color: #ffde79;
+        width: 40%;
+        display: block;
+        h5{
+            @extend .h; 
+                margin-bottom: 10px;
+                position: relative;
+                bottom: 10px;
+                left: 5px;
+                margin-top: 40px;
+         }
+    }
+    ul {
+        margin: 5% auto;
+        padding: 5%;
+        li {
+            list-style: none;
+           
+             address {
+                 @extend .h;
+                 color: rgba($color: #000000, $alpha: 0.7);
+                 display: inline;
+                
+             }
+             i {
+                 color: #036FC7;
+                 background-color: #E6F1F9;
+                 border-radius: 50%;
+                 padding: 10px;
+                 margin-right: 10px;
+             }
+        }
+    }
+    form {
+        margin-top: 50px;
+        label {
+            font-family: 'Roboto Slab', serif;
+            text-transform: capitalize;
+            color: rgba($color: #000000, $alpha: 0.8);
+            span {
+                color: red;
+            }
+        }
+        input {
+            padding: 15px;
+        }
+        .btn {
+            font-family:'Roboto Slab', serif;
+            text-transform: capitalize;
+            margin-top: 20px;
+            margin-right: 20px; 
+        }
+        .form-check {
+            margin-top: 30px;
+            label {
+               @extend .p
+            }  
+        }
+        .err {
+            border: 1px solid red;
+        }
+    }
+}
+
+}
